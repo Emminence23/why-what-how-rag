@@ -1,0 +1,16 @@
+bench,mode,baseline_acc,ours_acc,hints_from,recovered_output,note
+ARC-Challenge,cot,89,81,SLM,none,
+HellaSwag,cot,71,87,SLM,none,
+MuSR,cot,44,52,SLM,both arms,
+GPQA,cot,39,46,SLM,none,
+MMLU,cot,88,83,SLM,both arms,baseline is 88 in the recovered run (the report table says 80); both recovered prompts asked for a single letter
+MedMCQA,cot,74,73,SLM,none,
+AveriTeC,cot,52,57,dataset decompositions,both arms,hints were the dataset's own claim decompositions (no SLM or search)
+TruthfulQA,cot,73,64,SLM,none,open-ended answers scored by a Gemini judge
+ARC-Challenge,instruction,94,83,SLM,none,
+HellaSwag,instruction,74,66,SLM,hints arm only,
+MuSR,instruction,35,59,SLM,hints arm only,
+GPQA,instruction,31,33,SLM,none,
+AveriTeC,instruction,45,46,dataset decompositions,both arms,hints were the dataset's own claim decompositions (no SLM or search)
+TruthfulQA,instruction,74,74,SLM,none,open-ended answers scored by a Gemini judge
+MedMCQA,instruction,70,77,SLM,none,
